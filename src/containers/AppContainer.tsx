@@ -5,6 +5,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import ScreenHome from '../screens/home/ScreenHome';
 const Stack = createNativeStackNavigator();
 const AppContainer = () => {
+  //Name Screen
   enum NameScreen {
     SCREEN_HOME = 'ScreenHome',
   }
